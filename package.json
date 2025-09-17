@@ -1,4 +1,5 @@
 {
+  
   "homepage": "https://https://github.com/mathzin89/igreja-app",
   "name": "igreja-app",
   "version": "0.1.0",
@@ -16,6 +17,7 @@
     "@mui/icons-material": "^5.15.0",
     "@mui/material": "^5.15.0",
     "@mui/system": "^5.15.0",
+    "@netlify/plugin-nextjs": "^5.13.2",
     "chart.js": "^4.5.0",
     "firebase": "^12.1.0",
     "html2canvas": "^1.4.1",
@@ -37,5 +39,9 @@
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "engines": {
+  "node": "18.x"
+}
+  
 }
